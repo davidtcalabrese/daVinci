@@ -1,0 +1,28 @@
+.wheels {
+  display: flex;
+  justify-content: center;
+}
+
+.vitruvian-container{ 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.vitruvian-man { width: 400px; }
+
+#vitruvian-man-one { animation: rotate-left 33s infinite linear; }
+
+#vitruvian-man-two { animation: rotate-right 33s infinite linear; }
+
+#vitruvian-man-three { animation: rotate-left 33s infinite linear; }
+
+@keyframes rotate-right {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate-left {
+  0%   { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}

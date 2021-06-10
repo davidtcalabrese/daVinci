@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Bevan');
+
+* { box-sizing: border-box; }
+html {
+	font-size: 21px;
+	line-height: 1.3;
+}
+
+h1 {
+	font-family: 'Bevan', cursive;
+	text-transform: uppercase;
+	font-size: 3rem;
+	text-align: center;
+	margin: 3.5rem auto 1rem auto;
+	color: transparent;
+  background: linear-gradient(
+    0deg, 
+    rgb(52, 67, 93) 30%,
+    rgb(64, 163, 60) 55%,
+    rgb(252, 127, 83) 70%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+body {
+  display: flex;
+	margin: 0;
+	padding: 0;
+	background-color: #edeffa;
+	font-family: 'Cormorant Garamond', serif;
+  background-image: url("/img/paper.jpg");
+}
+p { margin: .5rem 2rem; }
+p:last-of-type {margin-bottom: 3rem; }
+
+article {
+	margin: 0 45px 0 45px;
+	background-color: #fff;
+	padding: 25px;
+	position: relative;
+	z-index: -2;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*---------------------------------- header styles -----------------------------
+------------------------------------------------------------------------------*/
+nav {
+  width: 100%;
+  display: flex;
+
+}
+header nav ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 1px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(252, 244, 244);
+}
+
+header nav li { 
+  display: inline;
+  width: 125px;
+  text-align: center;
+}
+header nav li a {
+  color: rgb(17, 16, 16);
+  text-align: left;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 130%;
+}
+header nav li:hover {
+  border-bottom: 1px solid black;
+}
+
+.container {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #858d9a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	article { margin: 155px 45px 0 45px; }
+
+}
+
+@media screen and (max-width: 550px) {
+
+	h1 { font-size: 3.5rem; }
+
+}
+
+@media screen and (max-width: 450px) {
+
+	h1 { font-size: 3rem; }
+	article { margin: 155px 20px 0 20px; }
+
+}
+

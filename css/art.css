@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Bevan');
+
+html {
+	font-size: 19px;
+	line-height: 1.3;
+}
+
+.container {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #858d9a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+
+h1 {
+	font-family: 'Bevan', cursive;
+	text-transform: uppercase;
+	font-size: 3rem;
+	text-align: center;
+	margin: 3rem auto;
+	color: transparent;
+  background: linear-gradient(
+    0deg, 
+    rgb(52, 67, 93) 30%,
+    rgb(64, 163, 60) 55%,
+    rgb(252, 127, 83) 70%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+	article { margin: 155px 45px 0 45px; }
+
+}
+
+@media screen and (max-width: 550px) {
+
+	h1 { font-size: 3.5rem; }
+
+}
+
+@media screen and (max-width: 450px) {
+
+	h1 { font-size: 2.8rem; }
+	article { margin: 155px 20px 0 20px; }
+
+}
+
+
+
